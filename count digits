@@ -1,0 +1,19 @@
+def count_digits(n):
+    return len(str(abs(n)))
+
+# Example usage
+number = int(input("Enter a number: "))
+print(f"Number of digits in {number} is {count_digits(number)}")
+
+
+
+
+def count_digits(n):
+    n = abs(n)
+    if n == 0:
+        return 1
+    count = 0
+    while n > 0:
+        n //= 10
+        count += 1
+    return count
