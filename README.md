@@ -1,5 +1,6 @@
-# python
-Python programmes and concepts begginer 
+# python java javascript typescript
+
+ programmes and concepts begginer 
 
 
 
